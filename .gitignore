@@ -1,0 +1,3 @@
+# Never commit secrets
+.streamlit/secrets.toml
+.env
