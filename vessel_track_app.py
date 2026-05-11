@@ -179,7 +179,7 @@ button[data-baseweb="tab"][aria-selected="true"] p {
 [data-testid="stMarkdownContainer"] p,
 [data-testid="stMarkdownContainer"] li,
 [data-testid="stMarkdownContainer"] td {
-    font-size: 0.88rem !important;
+    font-size: 0.95rem !important;
     line-height: 1.75 !important;
 }
 [data-testid="stMarkdownContainer"] h1 { font-size: 1.2rem !important; }
@@ -994,7 +994,7 @@ if not file1 or not file2:
     st.markdown("---")
 
     # ── Sample data loader ────────────────────────────────────────────────────
-    st.markdown("#### 🧪  Try with sample data")
+    st.markdown("####   Try with sample data")
     st.caption(
         "No AIS data yet? Download these two demo CSV files — two vessels meeting "
         "in the Gulf of Guinea with a simulated transshipment event — then upload "
